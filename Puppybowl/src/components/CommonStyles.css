@@ -1,0 +1,36 @@
+/* Common styling for centered containers */
+.players-container,
+.single-player-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Common styling for player cards */
+.player-card,
+.single-player-card {
+  border: 2px solid #ddd;
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 400px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Headings within cards */
+.player-card h3,
+.single-player-card h2 {
+  margin: 0;
+}
+
+/* Buttons styling */
+.player-card button,
+.single-player-card button {
+  margin: 5px;
+}
+
+/* Image styling to keep consistent look */
+.single-player-card img {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+}
